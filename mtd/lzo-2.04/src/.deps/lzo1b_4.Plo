@@ -1,0 +1,105 @@
+lzo1b_4.lo: lzo1b_4.c \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdc-predef.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ compr1b.h config1b.h lzo_conf.h ../include/lzo/lzoconf.h ../config.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/limits.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/syslimits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/limits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stddef.h \
+ ../include/lzo/lzodefs.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ miniacc.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/assert.h \
+ lzo_ptr.h ../include/lzo/lzo1b.h lzo1b_de.h lzo_dict.h stats1b.h \
+ lzo1b_cc.h lzo1b_c.ch lzo1b_sm.ch lzo1b_tm.ch lzo1b_cr.ch lzo1b_cm.ch
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdc-predef.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+compr1b.h:
+
+config1b.h:
+
+lzo_conf.h:
+
+../include/lzo/lzoconf.h:
+
+../config.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/limits.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/syslimits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stddef.h:
+
+../include/lzo/lzodefs.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+miniacc.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/assert.h:
+
+lzo_ptr.h:
+
+../include/lzo/lzo1b.h:
+
+lzo1b_de.h:
+
+lzo_dict.h:
+
+stats1b.h:
+
+lzo1b_cc.h:
+
+lzo1b_c.ch:
+
+lzo1b_sm.ch:
+
+lzo1b_tm.ch:
+
+lzo1b_cr.ch:
+
+lzo1b_cm.ch:

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ss
+Description: Subsystem command parsing library
+Version: 1.39
+Requires: com_err
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lss -ldl

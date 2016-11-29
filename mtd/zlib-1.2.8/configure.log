@@ -1,0 +1,147 @@
+--------------------
+./configure --static
+2016年 11月 29日 星期二 09:25:34 CST
+=== ztest9571.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-none-linux-gnueabi-gcc -c ztest9571.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest9571.c ===
+int foo() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 ztest9571.c
+
+Building static library libz.a version 1.2.8 with arm-none-linux-gnueabi-gcc.
+
+=== ztest9571.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest9571.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+arm-none-linux-gnueabi-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9571 ztest9571.c
+Checking for strerror... Yes.
+
+=== ztest9571.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking for unistd.h... Yes.
+
+=== ztest9571.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking for stdarg.h... Yes.
+
+=== ztest9571.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest9571.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-none-linux-gnueabi-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9571 ztest9571.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest9571.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest9571.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9571.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static all64
+AR = arm-none-linux-gnueabi-ar
+ARFLAGS = rc
+CC = arm-none-linux-gnueabi-gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = arm-none-linux-gnueabi-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = arm-none-linux-gnueabi-gcc
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = arm-none-linux-gnueabi-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr/local
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+

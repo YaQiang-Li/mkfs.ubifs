@@ -1,0 +1,274 @@
+align.o: align.c \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdc-predef.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ ../include/lzo/lzoconf.h ../config.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/limits.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/syslimits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/limits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stddef.h \
+ ../include/lzo/lzodefs.h ../examples/portab.h ../examples/portab_a.h \
+ ../src/miniacc.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stdarg.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/endian.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap-16.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/stat.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stat.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdlib-float.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/strings.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/inttypes.h \
+ /opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stdint.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/environments.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/getopt.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/ctype.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/errno.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/malloc.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/fcntl.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl-linux.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/dirent.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/dirent.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/setjmp.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/signal.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/signum.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/siginfo.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigaction.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigcontext.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm/sigcontext.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigstack.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/ucontext.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigthread.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/time.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/utime.h \
+ /opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/assert.h
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdc-predef.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+../include/lzo/lzoconf.h:
+
+../config.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/limits.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed/syslimits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stddef.h:
+
+../include/lzo/lzodefs.h:
+
+../examples/portab.h:
+
+../examples/portab_a.h:
+
+../src/miniacc.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stdarg.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap-16.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/stat.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stat.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/stdlib-float.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/strings.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/inttypes.h:
+
+/opt/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include/stdint.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/environments.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/getopt.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/ctype.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/errno.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/malloc.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/fcntl.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl-linux.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/dirent.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/dirent.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/setjmp.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/signal.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/signum.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/siginfo.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigaction.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigcontext.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/asm/sigcontext.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigstack.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/ucontext.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/bits/sigthread.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/sys/time.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/utime.h:
+
+/opt/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include/assert.h:

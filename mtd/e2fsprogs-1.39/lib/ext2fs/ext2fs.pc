@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ext2fs
+Description: Ext2fs library
+Version: 1.39
+Requires: com_err
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lext2fs
